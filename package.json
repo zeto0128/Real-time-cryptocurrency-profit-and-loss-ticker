@@ -1,0 +1,37 @@
+{
+  "name": "real-time-cryptocurrency-profit-and-loss-ticker",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server/ticker/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "homepage": "https://github.com/zeto0128/Real-time-cryptocurrency-profit-and-loss-ticker#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zeto0128/Real-time-cryptocurrency-profit-and-loss-ticker.git"
+  },
+  "author": "jjaucian",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zeto0128/Real-time-cryptocurrency-profit-and-loss-ticker/issues"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  },
+  "dependencies": {
+    "bcrypt": "^5.0.0",
+    "connect-flash": "^0.1.1",
+    "ejs": "^3.1.6",
+    "express": "^4.17.1",
+    "express-ejs-layouts": "^2.5.0",
+    "express-session": "^1.17.1",
+    "mongoose": "^5.11.15",
+    "passport": "^0.4.1",
+    "passport-local": "^1.0.0",
+    "request": "^2.88.2",
+    "socket.io": "^3.1.1"
+  }
+}
